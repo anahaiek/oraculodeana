@@ -1,0 +1,75 @@
+.but {
+    display: flex;
+    color:red;
+    font-size: 40px;
+    cursor: pointer;
+    transition:.3s ease all;
+    position:absolute;
+    text-align: center;
+    background-color: whitesmoke;
+    justify-content: center;
+    left: 800px;
+     
+}
+@media screen and (max-width: 1500px)
+{
+   .but{display: flex;
+    color:red;
+    font-size: 40px;
+    cursor: pointer;
+    transition:.3s ease all;
+    position:absolute;
+    text-align: center;
+    background-color: whitesmoke;
+    justify-content: center;
+    left: 150px;
+       
+   }
+
+}
+@media screen and (max-width: 2500px)
+ {
+    .bolacristal{
+        display: flex;
+        font-size: 20px;
+        background:url(img/oracle3.png);
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+        background-image: center;
+    }
+  }
+  
+    @media screen and (max-width: 1500px)
+    {
+       .bolacristal{
+           display: flex;
+           font-size: 20px;
+           background: url(img/img1.jpg);
+           background-size: cover;
+           justify-content: center;
+           align-items: center;
+           height: 700px;
+           background-image: center;
+       }
+          
+  }
+  
+
+.ui {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-size-adjust: 40px;
+}
+.titulo{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+}
+
+.para{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+}
