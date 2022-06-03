@@ -54,7 +54,11 @@
            background-size: cover;
            justify-content: center;
            align-items: center;
+<<<<<<< HEAD
            height: 800px;
+=======
+           height: 1000px;
+>>>>>>> ca77f901b1d20598e02f4d01a47ca5d511864939
            background-image: center;
        }
           
@@ -77,6 +81,7 @@
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align:center;
+<<<<<<< HEAD
     color: azure;
     
 }
@@ -88,3 +93,6 @@ body,html{
 .bg{
     background-image: url(img/galax.jpg);
 }
+=======
+}
+>>>>>>> ca77f901b1d20598e02f4d01a47ca5d511864939
