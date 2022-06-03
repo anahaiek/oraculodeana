@@ -5,26 +5,28 @@
 <head>
 <title>Oraculo</title>
 <link rel="stylesheet" href="main.css">
-    <h1 class="titulo">Oráculo de Ana</h1>
+    <h1 class="titulo">ORÁCULO DE ANA</h1>
     <p class="para">Seja bem-vinda(o)! Se você tem alguma dúvida faça a sua pergunta que o oráculo irá te guiar na direção correta em 99% das vezes ele acerta. </p>
+    
 </head>
 
-<body>
+<body class="bg">
 <!-- Conteúdo -->
 <div class="ui">
 <script>
     function obterFrase () 
     {
     var rtext = new Array ();
-        rtext[0] = "Se você se esforçar. Existe uma chance de acontecer!";
+        rtext[0] = "Talvez aconteça!";
         rtext[1] = "Talvez!";
         rtext[2] = "Não!";
         rtext[3] = "Você merece algo melhor!";
         rtext[4] = "Desista!";
-        rtext[5] = "Tenha paciência. Acontecerá no futuro!";
+        rtext[5] = "Acontecerá no futuro!";
         rtext[6] = "Sim!";
         var i = Math.floor(7*Math.random())
-        document.getElementById("sorte").innerHTML = "<p>" + rtext[i] + "</p>";
+        document.getElementById("sorte").innerHTML = "<p>" + rtext[i] + "</p>" ;
+        document.getElementById("sorte").style.fontSize = "40px";
     }
 </script>
  

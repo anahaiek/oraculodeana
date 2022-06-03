@@ -1,6 +1,6 @@
 .but {
     display: flex;
-    color:red;
+    color:rgb(188, 119, 252);
     font-size: 40px;
     cursor: pointer;
     transition:.3s ease all;
@@ -9,20 +9,22 @@
     background-color: whitesmoke;
     justify-content: center;
     left: 800px;
+    
      
 }
 @media screen and (max-width: 1500px)
 {
    .but{display: flex;
-    color:red;
+    color:rgb(169, 58, 212);
     font-size: 40px;
     cursor: pointer;
     transition:.3s ease all;
     position:absolute;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: azure;
     justify-content: center;
-    left: 150px;
+    left: 360px;
+    margin: 20px; 
        
    }
 
@@ -36,8 +38,10 @@
         background-size: cover;
         justify-content: center;
         align-items: center;
-        height: 800px;
+        height: 750px;
         background-image: center;
+        margin-bottom: 2px;
+        
     }
   }
   
@@ -46,11 +50,11 @@
        .bolacristal{
            display: flex;
            font-size: 20px;
-           background: url(img/img1.jpg);
+           background: url(img/960x0.jpg);
            background-size: cover;
            justify-content: center;
            align-items: center;
-           height: 700px;
+           height: 800px;
            background-image: center;
        }
           
@@ -60,16 +64,27 @@
 .ui {
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-size-adjust: 40px;
+    text-size-adjust: 20px;
 }
 .titulo{
-    font-size: 40px;
+    font-size: 45px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align:center;
+    color: azure;
 }
 
 .para{
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align:center;
+    color: azure;
+    
+}
+body,html{
+    height:100%;
+    margin:0;
+}
+
+.bg{
+    background-image: url(img/galax.jpg);
 }
